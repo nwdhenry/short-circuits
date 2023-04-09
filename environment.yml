@@ -1,0 +1,13 @@
+name: ldm
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+      - transformers==4.19.2
+      - diffusers
+      - invisible-watermark
